@@ -8,10 +8,10 @@ namespace HolaMundo
         {
             string palabra;
             int n;
-            Console.WriteLine("Cantidad de letras de tu frase");
+            Console.ReadLine("Cantidad de letras de tu frase");
             n = Convert.ToInt32(Console.ReadLine());
             
-            Console.WriteLine("Ingresa la frase a adivinar");
+            Console.ReadLine("Ingresa la frase a adivinar");
             palabra = Console.ReadLine();
             
             string palabraMostrar = "";
